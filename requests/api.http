@@ -1,0 +1,26 @@
+### Create a question
+
+POST http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+{
+  "name": "Jordan A",
+  "text": "I throw the Ring",
+  "repo": "repo",
+  "live": "live"
+}
+
+### Get all
+
+GET http://127.0.0.1:5000/api/questions
+Content-Type: application/json
+
+
+### Delete Record
+
+DELETE http://127.0.0.1:5000/api/questions/606f56c1e6a6976118d2227f
+
+Content-Type: application/json
+{
+  _id: "606f56c1e6a6976118d2227f"
+}
